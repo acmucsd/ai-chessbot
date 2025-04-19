@@ -81,6 +81,7 @@ class Board:
                         )
 
 
+
     def is_in_checkmate(self, color):
         output = False
         pieces_left = [
