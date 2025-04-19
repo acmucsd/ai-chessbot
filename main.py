@@ -1,7 +1,8 @@
 import pygame
 
 from data.classes.Board import Board
-from data.classes.bots.random_bot import Bot
+from data.classes.bots.random_bot import Bot as RandomBot
+from data.classes.bots.minimax_bot import Bot as MinimaxBot
 
 pygame.init()
 
@@ -20,7 +21,7 @@ def draw(display):
 if __name__ == "__main__":
     running = True
     bot1 = RandomBot()
-    bot2 = RandomBot()
+    bot2 = MinimaxBot()
     while running:
         mx, my = pygame.mouse.get_pos()
         for event in pygame.event.get():
