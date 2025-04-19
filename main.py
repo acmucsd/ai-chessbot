@@ -1,7 +1,7 @@
 import pygame
 
 from data.classes.Board import Board
-from data.classes.bots.random_bot import RandomBot
+from data.classes.bots.random_bot import Bot
 
 pygame.init()
 
