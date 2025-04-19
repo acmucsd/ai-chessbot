@@ -19,8 +19,8 @@ def draw(display):
 
 if __name__ == "__main__":
     running = True
-    bot1 = RandomBot()
-    bot2 = RandomBot()
+    bot1 = Bot()
+    bot2 = Bot()
     while running:
         mx, my = pygame.mouse.get_pos()
         for event in pygame.event.get():
